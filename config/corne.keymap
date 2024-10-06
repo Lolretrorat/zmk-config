@@ -33,7 +33,7 @@
         QWERTY_layer {
             label = "QWERTY";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y      &kp L  &kp I              &kp O       &kp P          &kp BSPC
+&kp TAB           &kp Q  &kp W  &kp E           &kp R  &kp T        &kp Y      &kp U  &kp I              &kp O       &kp P          &kp BSPC
 &kp ESCAPE        &kp A  &kp S  &kp D           &kp F  &kp G        &kp H      &kp J  &kp K              &kp L       &kp SEMICOLON  &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C           &kp V  &kp B        &kp N      &kp M  &kp COMMA          &kp PERIOD  &kp SLASH      &kp RIGHT_ALT
                                 &kp LEFT_SHIFT  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp RIGHT_COMMAND
@@ -43,20 +43,20 @@
         Number_layer {
             label = "NUM";
             bindings = <
-&kp BACKSPACE  &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3        &kp NUMBER_4     &kp N5           &kp NUMBER_6    &kp N7        &kp N8          &kp N9           &kp N0  &none
-&kp DELETE     &kp LC(LS(C))  &kp LC(LS(F))  &kp LC(LS(DELETE))  &kp PRINTSCREEN  &kp LC(LS(T))    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none
-&kp LC(Q)      &kp CAPSLOCK   &kp LC(LA(T))  &kp LC(C)           &kp LC(V)        &kp LC(LS(N))    &kp HOME        &kp END       &none           &none            &none   &kp SLASH
-                                             &kp LEFT_SHIFT      &none            &kp SPACE        &kp ENTER       &mo 3         &kp LEFT_GUI
+&kp BACKSPACE  &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3        &kp NUMBER_4     &kp N5           &kp NUMBER_6    &kp N7          &kp N8        &kp N9           &kp N0         &kp LC(D)
+&kp DELETE     &kp LC(LS(C))  &kp LC(LS(F))  &kp LC(LS(DELETE))  &kp PRINTSCREEN  &kp LC(LS(T))    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LC(LS(V))  &kp LC(T)
+&kp LC(Q)      &kp CAPSLOCK   &kp LC(LA(T))  &kp LC(C)           &kp LC(V)        &kp LC(LS(N))    &kp HOME        &kp END         &none         &none            &none          &kp SLASH
+                                             &kp LEFT_SHIFT      &none            &kp SPACE        &kp ENTER       &mo 3           &kp LEFT_GUI
             >;
         };
 
         Symbols_layer {
             label = "SYMB";
             bindings = <
-&kp TAB           &kp EXCLAMATION  &kp AT_SIGN  &kp HASH    &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp ESCAPE        &kp F1           &kp F2       &kp F3      &kp F4      &kp F5         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp GRAVE
-&kp LEFT_CONTROL  &kp F6           &kp F7       &kp F8      &kp F9      &kp F10        &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &kp PIPE
-                                                &kp LSHIFT  &none       &kp SPACE      &kp ENTER       &none          &none
+&kp TAB           &kp EXCLAMATION   &kp AT_SIGN       &kp HASH          &kp DOLLAR        &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp ESCAPE        &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(N5)     &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp GRAVE
+&kp LEFT_CONTROL  &kp RA(NUMBER_6)  &kp RA(N7)        &kp RA(N8)        &kp RA(N9)        &kp RA(F2)     &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &kp PIPE
+                                                      &kp LSHIFT        &none             &kp SPACE      &kp ENTER       &none          &none
             >;
         };
 
