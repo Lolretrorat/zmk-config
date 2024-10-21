@@ -44,7 +44,7 @@
         Number_layer {
             label = "NUM";
             bindings = <
-&kp BACKSPACE  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4  &kp N5           &kp NUMBER_6    &kp N7          &kp N8        &kp N9           &bl BL_ON      &kp LC(D)
+&kp BACKSPACE  &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4  &kp N5           &kp NUMBER_6    &kp N7          &kp N8        &kp N9           &bl BL_ON      &kp LC(BACKSPACE)
 &kp DELETE     &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8    &kp NUMBER_9  &kp N0           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LC(LS(V))  &kp LC(T)
 &kp LC(Q)      &kp CAPSLOCK  &kp LC(LA(T))  &kp LC(C)       &kp LC(V)     &kp LC(LS(N))    &kp HOME        &kp END         &none         &none            &none          &kp SLASH
                                             &kp LEFT_SHIFT  &none         &kp SPACE        &kp ENTER       &mo 3           &kp LEFT_GUI
